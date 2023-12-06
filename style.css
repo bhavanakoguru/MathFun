@@ -1,0 +1,94 @@
+/* Add styling for the fixed-position navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4a90e2; 
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+}
+
+.middlecontent{ 
+    margin: auto;
+}
+.arrow{
+    margin-left: 5px;
+}
+
+.arrow a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f8f8f8; 
+}
+
+h1 {
+    color: #4a90e2; 
+    background-color: #fff; 
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.firstcontainer {
+    margin-top: 150px;
+    z-index: 2;
+}
+.containermain{
+    margin-top: 100px;
+}
+.container {
+    margin: 30px;
+    padding: 20px;
+    background-color: #fff; 
+    border: 2px solid #4a90e2;
+    border-radius: 10px;
+    display: inline-block;
+    width: 45%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.problem-container {
+    margin-top: 20px;
+    padding: 20px; 
+    border: 2px solid #4a90e2; 
+    border-radius: 10px;
+    text-align: left;
+    background-color: #f0f0f0; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.result {
+    font-weight: bold;
+    color: #35cb63; 
+}
+
+input {
+    margin-top: 10px;
+    padding: 12px; 
+    border: 2px solid #ccc; 
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px; 
+    padding: 15px 30px;
+    background-color: #4a90e2; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Smooth color change on hover */
+}
+
+button:hover {
+    background-color: #3574a2; 
+}
