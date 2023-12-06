@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathFun: Basic Operations</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="arrow"><a href="index.html">←</a></h1>
+        <h1 class="middlecontent">MathFun: Learning Math with Joy.</h1>
+    </div>
+    <div class="containermain">
+        <!-- Container for basic operations -->
+        <div id="complex-bodmas-container" class="container">
+            <h2>Complex BODMAS Problems</h2>
+            <div id="complex-bodmas-problem-container" class="problem-container">
+                <p id="complex-bodmas-problem-text"></p>
+                <input type="number" id="complex-bodmas-user-answer" placeholder="Your Answer">
+                <button onclick="checkComplexBodmasAnswer()">Check Answer</button>
+            </div><br>
+            <div id="complex-bodmas-result" class="result"></div><br><br>
+        </div>
+    </div>
+    <br></br>
+    <button onclick="getScore()">Get Your Score</button><br></br><br></br>
+    <!-- for displaying Score -->
+    <div id="score">
+        
+    </div>
+    <script src="bodmas_problems.js"></script>
+</body>
+</html>
