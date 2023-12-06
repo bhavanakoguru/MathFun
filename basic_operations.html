@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathFun: Basic Operations</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="arrow"><a href="index.html">←</a></h1>
+        <h1 class="middlecontent">MathFun: Learning Math with Joy.</h1>
+    </div>
+    <div class="containermain">
+        <!-- Container for basic operations -->
+        <div id="basic-container" class="container firstcontainer">
+            <h2>Basic Operations</h2>
+            <div id="basic-problem-container" class="problem-container">
+                <p id="basic-problem-text">Here's your basic math problem: 5 + 3</p>
+                <input type="number" id="basic-user-answer" placeholder="Your Answer">
+                <button onclick="checkBasicAnswer()">Check Answer</button>
+            </div><br>
+            <div id="basic-result" class="result"></div>
+        </div>
+    </div>
+    <br></br>
+    <button onclick="getScore()">Get Your Score</button><br></br><br></br>
+    <div id="score">
+        
+    </div>
+    <script src="basic_operation.js"></script>
+</body>
+</html>
